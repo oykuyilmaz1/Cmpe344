@@ -4,6 +4,7 @@
 This project takes an assembly code (see Input File Below) and calculates the number of stalls, CPI and the total clock cycle.
 ### How to run
 > g++ main.cpp -o main.o
+> 
 > ./main.o <input-path> <output-path>
 ### Input File
   * You are allowed to use only the add, and, or, sub, ld, sd, and beq instructions.
