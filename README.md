@@ -1,4 +1,4 @@
-# Cmpe344
+# Cmpe344 - Risc-V simulator
 
 ### About
 This project takes an assembly code (see Input File Below) and calculates the number of stalls, CPI and the total clock cycle.
