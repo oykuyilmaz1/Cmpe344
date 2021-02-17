@@ -10,6 +10,7 @@ This project takes an assembly code (see Input File Below) and calculates the nu
   * If you want to simulate a branch taken, your rs1 and rs2 must be the same. You do not provide a label, but provide how many lines should the simulator jump, in
 the label location. Example:
   > x31,x31,3 ---- branch taken, jump 3 lines
+  > 
   > x2,x3,7   ---- branch not taken
 ### Assumptions
   * We have a forwarding unit, thus add,and,or,sub instructions do not cause a stall.
