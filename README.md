@@ -5,7 +5,7 @@ This project takes an assembly code (see Input File Below) and calculates the nu
 ### How to run
 > g++ main.cpp -o main.o
 > 
-> ./main.o <input-path> <output-path>
+> ./main.o input-path output-path
 ### Input File
   * You are allowed to use only the add, and, or, sub, ld, sd, and beq instructions.
   * If you want to simulate a branch taken, your rs1 and rs2 must be the same. You do not provide a label, but provide how many lines should the simulator jump, in
